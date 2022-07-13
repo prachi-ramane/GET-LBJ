@@ -1,0 +1,51 @@
+package model;
+
+import java.time.LocalDate;
+
+public class Registration {
+	private int registrationId;
+	private LocalDate registrationDate;
+	private int courseId;
+	private int rollNo;
+	
+	public Registration() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Registration(LocalDate registrationDate, int courseId, int rollNo) {
+		super();
+		this.registrationDate = registrationDate;
+		this.courseId = courseId;
+		this.rollNo = rollNo;
+	}
+
+	public LocalDate getRegistrationDate() {
+		return registrationDate;
+	}
+
+	public void setRegistrationDate(LocalDate registrationDate) {
+		this.registrationDate = registrationDate;
+	}
+
+	public int getCourseId() {
+		return courseId;
+	}
+
+	public void setCourseId(int courseId) {
+		this.courseId = courseId;
+	}
+
+	public int getRollNo() {
+		return rollNo;
+	}
+
+	public void setRollNo(int rollNo) {
+		this.rollNo = rollNo;
+	}
+
+	public int getRegistrationId() {
+		return registrationId;
+	}
+	
+	
+}
