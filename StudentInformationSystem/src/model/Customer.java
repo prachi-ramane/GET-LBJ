@@ -3,6 +3,14 @@ package model;
 public class Customer {
 	String custID;
 	String name;
+	int age;
+	
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
 	public String getCustID() {
 		return custID;
 	}
